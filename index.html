@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack21</title>
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+	<button class="debutton" onClick="deal(1)">Bet $1</button>		<button class="debutton" onClick="deal(5)">Bet $5</button>		<button class="debutton" onClick="deal(10)">Bet $10</button>		<button class="debutton" onClick="deal(20)">Bet $20</button></br>		<div id="playermoney">$100</div>
+		DEALER'S CARDS:<div id="dealercards">.---..---.</br>|///||///|</br>|///||///|</br>|///||///|</br>'---''---'</div>
+		DEALER'S SCORE:<span id="dealerscore"></span></br>
+		YOUR CARDS:<div id="playercards">.---..---.</br>|///||///|</br>|///||///|</br>|///||///|</br>'---''---'</div>
+		YOUR SCORE:<span id="playerscore"></span></br>
+		<button id="htbutton" onClick="hit()">HIT</button>
+		<button id="stbutton" onClick="stand()">Stand</button>
+		<button id="ddbutton" onClick="doubledown()">Double Down</button>
+
+		<div id="message"></div>
+</body>
+</html>
